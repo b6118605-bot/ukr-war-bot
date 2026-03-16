@@ -6,8 +6,8 @@ ASSETS_DIR = Path(os.getenv("ASSETS_DIR", str(BASE_DIR / "assets")))
 DB_PATH = os.getenv("DB_PATH", str(BASE_DIR / "war_game.db"))
 
 # Never hardcode bot token in source control.
-TOKEN = os.getenv("BOT_TOKEN", "")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+TOKEN = "8725559998:AAE3rTHB6gWVy2tFEsZzjNmJI5Y9d1dxtPI"
+ADMIN_ID = 6300234875
 
 IMAGE_API = os.getenv("IMAGE_API", "https://image.pollinations.ai/prompt/")
 
